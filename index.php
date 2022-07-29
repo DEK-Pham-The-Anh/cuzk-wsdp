@@ -28,12 +28,12 @@ try {
 }
 
 echo "<hr>Last Request";
-echo "<pre style='width: 100%;'>", htmlspecialchars($client->__getLastRequest()), "</pre>";
+echo "<pre style='width: 100%; background-color: #000000; color: #ffffff; overflow: auto;'>", htmlspecialchars($client->__getLastRequest()), "</pre>";
 echo "<hr>Last Request Header";
-echo "<pre style='width: 100%;'>", htmlspecialchars($client->__getLastRequestHeaders()), "</pre>";
+echo "<pre style='width: 100%; background-color: #000000; color: #ffffff; overflow: auto;'>", htmlspecialchars($client->__getLastRequestHeaders()), "</pre>";
 echo "<hr>Last Response";
-echo "<pre style='width: 100%;'>", htmlspecialchars($client->__getLastResponse()), "</pre>";
+echo "<pre style='width: 100%; background-color: #000000; color: #ffffff; overflow: auto;'>", htmlspecialchars($client->__getLastResponse()), "</pre>";
 echo "<hr>Last Response Header";
-echo "<pre style='width: 100%;'>", htmlspecialchars($client->__getLastResponseHeaders()), "</pre>";
+echo "<pre style='width: 100%; background-color: #000000; color: #ffffff; overflow: auto;'>", htmlspecialchars($client->__getLastResponseHeaders()), "</pre>";
 
 ?>

@@ -1,6 +1,6 @@
 # CUZK WSDP
 
-SOAP client wrapper pro aplikace, které přistupují k údajům katastru nemovitostí ČR za pomocí WSDP 2.9
+SOAP client wrapper pro aplikace, které přistupují k údajům katastru nemovitostí ČR přes WSDP 2.9
 
 
 ## Příklad použití
@@ -30,13 +30,4 @@ try {
 } catch (SoapFault $e) {
     echo "Error: {$e}";
 }
-
-echo "<hr>Last Request";
-echo "<pre style='width: 100%;'>", htmlspecialchars($client->__getLastRequest()), "</pre>";
-echo "<hr>Last Request Header";
-echo "<pre style='width: 100%;'>", htmlspecialchars($client->__getLastRequestHeaders()), "</pre>";
-echo "<hr>Last Response";
-echo "<pre style='width: 100%;'>", htmlspecialchars($client->__getLastResponse()), "</pre>";
-echo "<hr>Last Response Header";
-echo "<pre style='width: 100%;'>", htmlspecialchars($client->__getLastResponseHeaders()), "</pre>";
 ```
